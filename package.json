@@ -1,0 +1,22 @@
+{
+  "name": "pversion",
+  "version": "0.8.0",
+  "description": "A Polymer element version bumping tool.",
+  "main": "index.js",
+  "bin": {
+    "pversion": "./index.js"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "bower-json": "^0.4.0",
+    "mversion": "^1.10.0",
+    "rsvp": "^3.0.18",
+    "semver": "^4.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
